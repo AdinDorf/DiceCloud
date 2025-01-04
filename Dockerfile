@@ -24,4 +24,4 @@ RUN npm install
 WORKDIR /home/mt/dc/bundle
 RUN rm -r /home/mt/dicecloud
 
-ENTRYPOINT node main.js
+ENTRYPOINT ["node", "main.js"]
